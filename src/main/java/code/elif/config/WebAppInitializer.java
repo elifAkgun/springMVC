@@ -11,7 +11,7 @@ import javax.servlet.ServletException;
 import javax.servlet.ServletRegistration;
 
 @Slf4j
-public class WellAppInitializer implements WebApplicationInitializer {
+public class WebAppInitializer implements WebApplicationInitializer {
     @Override
     public void onStartup(ServletContext servletContext) throws ServletException {
         log.info("on startup");
