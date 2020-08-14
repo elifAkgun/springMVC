@@ -24,8 +24,8 @@ public class TodoServiceImpl implements TodoService {
     }
 
     @Override
-    public List<TodoItem> getItems() {
-        return todoData.getItems();
+    public TodoItem getItem(int id) {
+        return todoData.getTodoItem(id);
     }
 
     @Override

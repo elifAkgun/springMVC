@@ -14,7 +14,7 @@ public interface TodoService {
 
     public void removeItem(int id);
 
-    public List<TodoItem> getItems();
+    public TodoItem getItem(int id);
 
     public void updateItem(@NonNull TodoItem toUpdateItem);
 
